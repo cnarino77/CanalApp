@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="hibernate.connection.driver_class">com.microsoft.sqlserver.jdbc.SQLServerDriver</property>
+    <property name="hibernate.connection.url">jdbc:sqlserver://172.27.1.74\TEST;databaseName=canalAppBd</property>
+    <property name="hibernate.connection.username">usrCanalApp</property>
+    <property name="hibernate.connection.password">Cr3d1b4nc02016*</property>
+    <property name="hibernate.current_session_context_class">thread</property>
+    <property name="hibernate.dialect">org.hibernate.dialect.SQLServerDialect</property>
+  </session-factory>
+</hibernate-configuration>
